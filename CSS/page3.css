@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*navigation bar and logo*/
+.topnav .search_container{
+    float: right
+}
+.topnav .logo{
+    float:left
+}
+.logo{
+    display: block;
+    margin-top: 12px;
+    margin-left: 10px;
+    max-width:350px;
+    max-height:85px;
+    width: auto;
+    height: auto;
+}
+.topnav{
+    overflow:hidden;
+    padding-bottom:15px;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color: white;
+    z-index:3;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*search bar with symbol itself*/
+.topnav .search_container{
+    padding-top: 25px;
+    padding-right: 75px;
+    border-radius: 15px;
+}
+
+.topnav .search_container .fas{
+        position: absolute;
+        padding-top: 32px;
+        padding-right:35px;
+        top: 10px;
+        right: 10px;
+        font-size: 22px;
+        color: #484569;
+        cursor: pointer;
+    } 
+    ::-webkit-input-placeholder{
+        color: #12658ea1;
+    }
+    ::-moz-input-placeholder{
+        color: #12648E;
+    }
+    ::-ms-input-placeholder{
+        color: #12648E;
+    }
+/*inside search bar*/
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 800px;
+    border:1px solid #eaeaea;
+    outline:none;
+    font-size: 16px;
+    border-radius: 15px;
+    
+}
+
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#12648E;
+}
+/*input specific to popup addlink*/
+#url{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 15px;
+    width: 400px;
+    border:1px solid #eaeaea;
+    outline:none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.popup{
+  display: none;
+  position: center,fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 4;
+  width:600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#addlinkpopup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background:white;
+    height: 230px;
+    border-radius:20px
+}
+#chatlinkheading{
+    position:relative;
+    font-size: 22px;
+    color:#484569 
+}
+
+.popup{
+    text-align:center;
+}
+.popuppadding{
+    padding-left: 400px;
+
+}
+/*all classes' info as block*/
+.entries{
+    display:block;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    width:100%;
+    position:absolute;
+    padding-left:125px;
+    z-index:2;
+}
+/*so popup appears on top*/
+.addclass,.noclass{
+    z-index:1
+}
+
+.main{
+    overflow-x:hidden
+}
+
+/*each class*/
+
+
+
+
