@@ -1,0 +1,138 @@
+/*font bold keywords*/
+#boldlecture,#boldlecture2,#boldlecture3,#boldlecture4, #boldlecture5,
+#boldlecture6,#boldlecture7,#boldlecture8,#boldlecture9,#boldlecture10,
+#bolddays,#bolddays2,#bolddays3,#bolddays4,#bolddays5,#bolddays6,#bolddays7,
+#bolddays8,#bolddays9,#bolddays10,
+#boldinstructor,#boldinstructor2,#boldinstructor3,#boldinstructor4,#boldinstructor5,
+#boldinstructor6,#boldinstructor7,#boldinstructor8,#boldinstructor9,#boldinstructor10,
+#boldtime,#boldtime2,#boldtime3,#boldtime4,#boldtime5,#boldtime6,
+#boldtime7,#boldtime8,#boldtime9,#boldtime10{
+    font-weight: 600;
+}
+
+/*individual rows*/
+.white, .grey{
+    display:table;
+    min-width:1050px;
+    max-height: 100px;
+    border-radius:25px;
+    padding-left: 10px  
+}
+
+/*padding for entries*/
+.padding{
+    padding-left:150px
+}
+
+/*padding for very first entry*/
+.padding2{
+    padding-top:100px
+}
+
+/*padding specific for search.html and formatting for economics entry for purpose of video*/
+.left2{
+    padding-left:25px;
+    padding-top:30px
+
+}
+
+
+
+    /*more specific to each row entry*/
+.white  {
+    background: white;
+    color:#464179 
+}
+
+.grey {
+    background: #F2F2F4;
+    color:#272350
+}
+    /*more specific to each row entry*/
+
+.left,.middle,.right{
+    display:table-cell
+}
+
+.left{
+    width: 509px;
+    height: 111px;
+    padding-right: 35px;
+
+}
+
+.middle{
+    font-weight: 300;
+    font-size: 20px;
+    width: 240px;
+    height: 111px;
+}
+
+
+/*
+.right{
+    align-items:center
+} */
+
+.icons{
+    padding-top:30px;
+    padding-left:20px;
+    position:absolute
+}
+
+.addclass{
+    padding-top:118px;
+    padding-left:200px;
+    position:absolute
+}
+
+/*make .right flex to make .noclass align in it*/
+.right{
+    position:flex;
+    align-items:flex-start
+}
+.noclass{
+    position:absolute;
+    align-self: center;
+    max-width:275px;
+    padding-top:15px;
+    padding-left:0px;
+    font-size:18px;
+    text-align:center
+}
+
+
+
+/*formatting columns
+ .white, .grey{
+    column-count: 3;
+    column-gap:40px;
+    column-rule: 1px solid #272350;
+    column-width: 33%;
+    padding-bottom:5px
+ }*/
+
+/* 
+.left{
+    width: 509px;
+    height: 111px;
+    left: 194px;
+    top: 97px;
+    padding-left: 70px;
+    column-span: 1
+
+}
+
+.middle{
+    font-weight: 300;
+    font-size: 20px;
+    color: #272350;
+    width: 319px;
+    height: 111px;
+    left: 726px;
+    top: 97px;
+}
+
+.right{
+    padding-right:70px
+} */
